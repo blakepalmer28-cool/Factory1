@@ -48,6 +48,29 @@ public class Factory {
         Airplane plane2 = new Airplane();
         System.out.println(plane2.capacity);
         plane2.capacity = 615;
+        System.out.println(plane2.capacity);
+        plane2.model = "Qu";
+        System.out.println(plane2.model);
+        plane2.isDoubleDecker = true;
+        System.out.println(plane2.isDoubleDecker);
+        plane2.length = 67;
+        System.out.println(plane2.length);
+
+        Airplane plane3 = new Airplane();
+        plane3.name= "quandaleDingle2.0";
+        System.out.println(plane3.name);
+        System.out.println(plane3.capacity);
+        plane3.capacity = 1230;
+        System.out.println(plane3.capacity);
+        plane3.model = "B-2B Lancer";
+        System.out.println(plane3.model);
+        plane3.isDoubleDecker = false;
+        System.out.println(plane3.isDoubleDecker);
+        plane3.length = 134;
+        System.out.println(plane3.length);
+
+
+
 
         //hW: make 2 more airplane objects
         //for one of the objects change all the instance variables
