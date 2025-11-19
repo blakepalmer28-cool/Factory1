@@ -59,7 +59,6 @@ public class Factory {
         Airplane plane3 = new Airplane();
         plane3.name= "quandaleDingle2.0";
         System.out.println(plane3.name);
-        System.out.println(plane3.capacity);
         plane3.capacity = 1230;
         System.out.println(plane3.capacity);
         plane3.model = "B-2B Lancer";
@@ -69,8 +68,11 @@ public class Factory {
         plane3.length = 134;
         System.out.println(plane3.length);
 
+        //constructor with parameter
 
-
+        Airplane plane = new Airplane(232,"Jacob6","Boeing 737",false, 157);
+        System.out.println(plane.capacity);
+        plane.printInfo();
 
         //hW: make 2 more airplane objects
         //for one of the objects change all the instance variables
