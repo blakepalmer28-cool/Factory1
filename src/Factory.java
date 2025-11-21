@@ -74,6 +74,12 @@ public class Factory {
         System.out.println(plane.capacity);
         plane.printInfo();
 
+        Boat boat1 = new Boat();
+        Boat boat2 = new Boat("AIDIKE");
+
+        boat1.printInfo();
+        boat2.printInfo();
+
         //hW: make 2 more airplane objects
         //for one of the objects change all the instance variables
         //for both objects print all the instance variables

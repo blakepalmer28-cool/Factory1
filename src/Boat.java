@@ -6,10 +6,19 @@ public class Boat {
     public int length;
 
 
-    //connstructor
+
     public Boat(){
+        name = "SHARK";
         capacity = 2000;
-        name = "Aidike";
+        model = "MEG";
+        isTripledecker = true;
+        length = 20;
+    }
+
+    //connstructor with parameter
+    public Boat(String bName){
+        name = bName;
+        capacity = 2000;
         model = "EXWX80";
         isTripledecker = true;
         length = 20;
@@ -18,7 +27,7 @@ public class Boat {
 
 
     }
-    public void printinfo(){
+    public void printInfo(){
         System.out.println(name);
         System.out.println("Model:"+model); // readable
         System.out.println(isTripledecker);
